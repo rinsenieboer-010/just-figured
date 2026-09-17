@@ -1,3 +1,5 @@
+@import url("apple.css");
+
 /* ─── Reset & Base ─────────────────────────────────────── */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -13,7 +15,7 @@
   --bg:       #f5f5f5;
   --card-bg:  #ffffff;
   --accent:   #f0a500;
-  --sans:     'Helvetica Neue', Arial, sans-serif;
+  --sans:     var(--font-sans);
 }
 
 html {
@@ -71,14 +73,14 @@ body {
 .tip-card {
   background: var(--card-bg);
   border: 1px solid var(--rule);
-  border-radius: 8px;
+  border-radius: var(--radius-lg);
   padding: 1.4rem 1.5rem;
   text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  transition: box-shadow var(--duration) var(--ease-apple), transform var(--duration) var(--ease-apple);
 }
 
 .tip-card:hover {
