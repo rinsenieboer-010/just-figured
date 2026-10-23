@@ -1,0 +1,11 @@
+# Just Figured It Out
+
+> Just Figured It Out is een Nederlandstalige site met korte, praktische tips en trucjes die Rinse Nieboer (Rotterdam) zelf heeft uitgevonden of ontdekt: "dingen die ik uitvond zodat jij dat niet hoeft."
+
+Elke tip is in twee minuten te lezen en dezelfde dag toe te passen.
+
+## Tips
+- [Kabels opbergen zonder knoop](https://justfigured.org/tips/kabels-opbergen.html): één trucje met een wc-rolletje.
+
+## Maker
+- [Rinse Nieboer](https://rjnieboer.com)
